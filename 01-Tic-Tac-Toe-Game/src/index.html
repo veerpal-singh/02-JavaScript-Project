@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="flex flex-col justify-center items-center h-screen w-[100%] bg-gray-300">
+
+        <div class="msg-container hidden">
+            <p class="msg text-[tomato] text-2xl text-center">Winner</p>
+            <button
+                class="newBtn bg-green-700 text-white w-[130px] h-[45px] rounded-xl text-xl cursor-pointer my-[10px]">New
+                Game</button>
+        </div>
+
+        <div class="bg-cyan-500 rounded-xl max-w-[400px] px-[2rem] py-[1.5rem]">
+            <h1 class="text-3xl font-bold text-center">Tic Toc Toe</h1>
+            <div class="grid grid-cols-3 gap-[1.5rem] my-[1rem]">
+                <button class="box bg-yellow-200 size-[80px] rounded-xl text-2xl text-red-600 cursor-pointer"></button>
+
+                <button class="box bg-yellow-200 size-[80px] rounded-xl text-2xl text-red-600 cursor-pointer"></button>
+
+                <button class="box bg-yellow-200 size-[80px] rounded-xl text-2xl text-red-600 cursor-pointer"></button>
+
+                <button class="box bg-yellow-200 size-[80px] rounded-xl text-2xl text-red-600 cursor-pointer"></button>
+
+                <button class="box bg-yellow-200 size-[80px] rounded-xl text-2xl text-red-600 cursor-pointer"></button>
+
+                <button class="box bg-yellow-200 size-[80px] rounded-xl text-2xl text-red-600 cursor-pointer"></button>
+
+                <button class="box bg-yellow-200 size-[80px] rounded-xl text-2xl text-red-600 cursor-pointer"></button>
+
+                <button class="box bg-yellow-200 size-[80px] rounded-xl text-2xl text-red-600 cursor-pointer"></button>
+
+                <button class="box bg-yellow-200 size-[80px] rounded-2xl text-2xl text-red-600 cursor-pointer"></button>
+            </div>
+            <div class="flex justify-center items-center">
+                <button
+                    class="resetBtn bg-green-700 text-white w-[90px] h-[50px] rounded-xl text-2xl cursor-pointer">Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
