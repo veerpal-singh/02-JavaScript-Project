@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="h-screen w-screen bg-gray-700 flex justify-center items-center">
+        <div id="box" class="w-[40%] bg-white rounded-xl p-[15px]">
+            <h2 id="quesBox">1) This is the dummy question</h2>
+            <div class="row w-[100%] m-[2rem] ml-0">
+                <input class="options" type="radio" value="a" id="option1" name="option">
+                <label for="option1">option1</label>
+            </div>
+
+            <div class="row w-[100%] m-[2rem] ml-0">
+                <input class="options" type="radio" value="b" id="option2" name="option">
+                <label for="option2">option2</label>
+            </div>
+
+            <div class="row w-[100%] m-[2rem] ml-0">
+                <input class="options" type="radio" value="c" id="option3" name="option">
+                <label for="option3">option3</label>
+            </div>
+
+            <div class="row w-[100%] m-[2rem] ml-0">
+                <input class="options" type="radio" value="d" id="option4" name="option">
+                <label for="option4">option4</label>
+            </div>
+
+            <button onclick="submitQuiz()" class="btn w-[100%] p-[5px] bg-gray-700 text-white rounded-xl text-xl cursor-pointer">
+                Submit
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
