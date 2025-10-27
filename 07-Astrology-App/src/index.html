@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astrology App</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body class="bg-purple-900 flex items-center justify-center min-h-screen">
+
+    <form id="astroForm" class="bg-white p-6 rounded-xl shadow-lg w-full max-w-md">
+
+        <h2 class="text-2xl font-semibold text-center text-purple-700 mb-6">Astrology Insights</h2>
+
+
+        <div class="mb-4">
+            <label class="block text-sm font-medium text-gray-700 mb-1">First Name</label>
+            <input id="name" type="text" placeholder="Enter first name"
+                class="w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-purple-500">
+        </div>
+
+
+        <div class="mb-4">
+            <label class="block text-sm font-medium text-gray-700 mb-1">Surname</label>
+            <input id="surname" type="text" placeholder="Enter surname"
+                class="w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-purple-500">
+        </div>
+
+
+        <div class="grid grid-cols-3 gap-3 mb-4">
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Date</label>
+                <input id="day" type="number" placeholder="DD"
+                    class="w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-purple-500">
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Month</label>
+                <input id="month" type="text" placeholder="MM"
+                    class="w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-purple-500">
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Year</label>
+                <input id="year" type="number" placeholder="YYYY"
+                    class="w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-purple-500">
+            </div>
+        </div>
+
+
+        <button type="submit"
+            class="w-full bg-purple-600 hover:bg-purple-700 text-white font-semibold py-2 rounded-md">Get
+            Insights</button>
+
+
+        <div id="result" class="mt-5 text-center p-3 border rounded-md bg-gray-50 text-gray-700">
+            Your astrological insights will appear here...
+        </div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
