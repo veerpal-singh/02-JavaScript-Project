@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(48, 46, 46);
+}
+
+h1 {
+    font-size: 4rem;
+    color: white;
+}
+
+span {
+    color: brown;
+    display: inline-flex;
+    align-items: center;
+}
+
+span::after {
+    content: "";
+    width: 3px;
+    height: 55px;
+    background-color: brown;
+    display: inline-block;
+    margin-left: 4px;
+}
