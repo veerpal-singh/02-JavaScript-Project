@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body class="bg-black/80 h-[100%] w-full flex flex-col justify-center items-center">
+
+    <button
+        class="generateBtn mb-[1rem] text-2xl text-white bg-purple-500 px-[1rem] py-[5px] rounded-xl cursor-pointer w-full max-w-[400px] active:bg-purple-700">Generat
+        Meme</button>
+
+    <div class="memeContainer max-w-[400px] bg-white py-[1rem] px-[1.5rem] rounded-xl">
+
+        <h1 class="memeTitle text-center mb-[1rem]">Loading...</h1>
+
+        <img class="memeImg max-w-full rounded-xl" src="" alt="error loading img">
+
+        <p class="author text-center mt-[1rem]"></p>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
